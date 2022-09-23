@@ -1,11 +1,15 @@
-p=5
+#step one: i want to know how to generate keys in RSA cipher. This task helped understand how to create keys
+
+
+
+p=5   #p and q must be a prime number
 q=11
 n=p*q
 phi=(p-1)*(q-1)
-e=7
+e=7   #e must be  1<e<phi
 #public key= e=7, n=55
 
-lewa_a=phi%e         #calculate d
+lewa_a=phi%e         #calculate d (private key)
 lewa_b=lewa_a*e
 lewa_c=phi-lewa_b
 
