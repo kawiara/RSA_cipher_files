@@ -51,6 +51,19 @@ d=obD(phi, e)
 print('your public key e and n',e,n)
 print('your private key',d)
 
+#----------------------------------
+#import random
+#base = random.getrandbits(2048)
+#p = next_prime(base + random.getrandbits(256))
+#q = next_prime(base + random.getrandbits(256))
+#n = p * q
+#e = 65537
+#print("e = ", e)
+#print("n = ", n)
+#c = power_mod(m, e, n)
+#print("c = ", c)
+#------------------------------------
+
 
 
 
